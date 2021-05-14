@@ -128,7 +128,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c40aa8b035e1d489897c96a74d92ba2d, type: 2}
+  - {fileID: -5927302941225915266, guid: 06566478a74e94325a1431e7dd3d102b, type: 3}
   - {fileID: 4332722229593428467, guid: 06566478a74e94325a1431e7dd3d102b, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -142,7 +142,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
+  m_SelectedEditorRenderState: 0
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
