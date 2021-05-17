@@ -12,37 +12,164 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49362
+49305
 Successfully changed project path to: /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 110.22 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 68.25 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe/Assets
 GfxDevice: creating device client; threaded=0
-2021-05-14 09:31:44.468 Unity[1478:23171] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
-2021-05-14 09:31:44.468 Unity[1478:23171] Metal devices available: 1
-2021-05-14 09:31:44.468 Unity[1478:23171] 0: Intel HD Graphics 5000 (low power)
-2021-05-14 09:31:44.473 Unity[1478:23171] Using device Intel HD Graphics 5000 (low power)
+2021-05-17 08:47:44.524 Unity[832:12265] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
+2021-05-17 08:47:44.524 Unity[832:12265] Metal devices available: 1
+2021-05-17 08:47:44.525 Unity[832:12265] 0: Intel HD Graphics 5000 (low power)
+2021-05-17 08:47:44.526 Unity[832:12265] Using device Intel HD Graphics 5000 (low power)
 Initializing Metal device caps: Intel HD Graphics 5000
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56478
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.073589 seconds.
+Registered in 0.043582 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 107.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 13.560 seconds
+- Completed reload, in  9.448 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.081191 seconds.
+Registered in 0.037134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 182.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1838.
+Total: 2.832018 ms (FindLiveObjects: 0.253577 ms CreateObjectMapping: 0.078323 ms MarkObjects: 2.276748 ms  DeleteObjects: 0.221695 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_gate_01.prefab
+  artifactKey: Guid(18943e248bf020344bc794f906887d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_gate_01.prefab using Guid(18943e248bf020344bc794f906887d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a20b46cbe0fcc7268cd0f9fada94aeb') in 4.989105 seconds
+  Import took 5.044796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_straw_roof_01.prefab
+  artifactKey: Guid(edc187f9f9ba43449800751ee6d59cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_straw_roof_01.prefab using Guid(edc187f9f9ba43449800751ee6d59cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e19c0479c9b3c1a4d5a8f0d1e807056') in 1.492326 seconds
+  Import took 1.592434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_boat_01.prefab
+  artifactKey: Guid(9db523a33d0f62640bdac852a07d15c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_boat_01.prefab using Guid(9db523a33d0f62640bdac852a07d15c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427bc9d3864a45f193a3c39edadcd6e9') in 0.946417 seconds
+  Import took 1.081570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_storage_01.prefab
+  artifactKey: Guid(9ac557bbc39bdda4ab5d844355cdb201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_storage_01.prefab using Guid(9ac557bbc39bdda4ab5d844355cdb201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d84ce104860315371ff9e0b3a3ac31e') in 0.473959 seconds
+  Import took 0.583445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_bighouse_02.prefab
+  artifactKey: Guid(1134317543a4d0949af5a6b78ad8e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_bighouse_02.prefab using Guid(1134317543a4d0949af5a6b78ad8e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f0a3f55402da924361e166ce27cdd2') in 0.344332 seconds
+  Import took 0.428183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_barracks_01.prefab
+  artifactKey: Guid(1d0aee27deb036444829b22bc0242535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_barracks_01.prefab using Guid(1d0aee27deb036444829b22bc0242535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d1e889057f09662ff8c7f7bc37fb5a') in 0.332964 seconds
+  Import took 0.387346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_tall_roof_01.prefab
+  artifactKey: Guid(ad3f867a742ace24b9e09aa4c6cfe7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_tall_roof_01.prefab using Guid(ad3f867a742ace24b9e09aa4c6cfe7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefe358d80a89175e51ea506a9319865') in 0.594320 seconds
+  Import took 0.638410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_bighouse_01.prefab
+  artifactKey: Guid(70b1cc9351b9b644f8490dc82ba9ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_bighouse_01.prefab using Guid(70b1cc9351b9b644f8490dc82ba9ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c900b172172db2be277fe434fe5643f') in 0.139850 seconds
+  Import took 0.191334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_boat_02.prefab
+  artifactKey: Guid(637d36d5cd3ab194e9614570eb8d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_boat_02.prefab using Guid(637d36d5cd3ab194e9614570eb8d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7b5e310406e6f8fb537ed219b7405') in 0.135081 seconds
+  Import took 0.162863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_big_storage_01.prefab
+  artifactKey: Guid(0b6b9334267df6640933e6446a286d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_big_storage_01.prefab using Guid(0b6b9334267df6640933e6446a286d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176ca30eb2d5bf779377a19d22264015') in 0.290501 seconds
+  Import took 0.352323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_01.prefab
+  artifactKey: Guid(3c8ce989a89bfce4da004b17f42d7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_small_house_01.prefab using Guid(3c8ce989a89bfce4da004b17f42d7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df50fec3657306e21166d312e677d53') in 0.109923 seconds
+  Import took 0.166854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/_GameAssets/Prefabs/Buildings/pf_build_blacksmith_01.prefab
+  artifactKey: Guid(4888fbdd6a6d4a7449a47ce78e5e1d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Buildings/pf_build_blacksmith_01.prefab using Guid(4888fbdd6a6d4a7449a47ce78e5e1d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c41f6a07c144b214e053d914fbfa5d') in 0.287928 seconds
+  Import took 0.348358 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 117.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.4 MB.
+System memory in use after: 161.5 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1845.
+Total: 24.049713 ms (FindLiveObjects: 0.941918 ms CreateObjectMapping: 0.096373 ms MarkObjects: 22.588016 ms  DeleteObjects: 0.420857 ms)
+
