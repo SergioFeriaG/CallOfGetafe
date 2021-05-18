@@ -52,7 +52,7 @@ public class AmbientSoundManager : MonoBehaviour
         if (!audioSource.isPlaying){
             audioSource.Play();
         }
-        StartCoroutine(FadeAudioSource.StartFade(audioSource, 2, 0.5f));
+        StartCoroutine(FadeAudioSource.StartFade(audioSource, 2, 0.3f));
     }
     void StopSound() {
         StopAllCoroutines();
