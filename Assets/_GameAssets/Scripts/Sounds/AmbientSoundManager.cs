@@ -15,6 +15,21 @@ public class AmbientSoundManager : MonoBehaviour
     private float fadePause;//Tiempo de espera entre incrementos/decrementos de volumen
     private AudioSource audioSource;
 
+    public static class FadeAudioSource {
+
+        public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume) {
+            float currentTime = 0;
+            float start = audioSource.volume;
+
+            while (currentTime < duration) {
+                    currentTime += Time.deltaTime;
+                    audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+                    yield return null;
+                }   
+            yield break;
+            }
+        }
+
     private void Awake() {
         audioSource = GetComponent<AudioSource>();
         initialVolume = audioSource.volume;
@@ -37,13 +52,13 @@ public class AmbientSoundManager : MonoBehaviour
         if (!audioSource.isPlaying){
             audioSource.Play();
         }
-        StartCoroutine("FadeIn");
+        StartCoroutine(FadeAudioSource.StartFade(audioSource, 2, 0.5f));
     }
     void StopSound() {
         StopAllCoroutines();
-        StartCoroutine("FadeOut");
+        StartCoroutine(FadeAudioSource.StartFade(audioSource, 2, 0));
     }
-    IEnumerator FadeIn() 
+    /*IEnumerator FadeIn() 
     {
         for(int i=0;i<100;i++) {
             audioSource.volume+=delta;
@@ -61,5 +76,5 @@ public class AmbientSoundManager : MonoBehaviour
         }
         audioSource.volume = 0;
         audioSource.Stop();
-    }
+    }*/
 }
