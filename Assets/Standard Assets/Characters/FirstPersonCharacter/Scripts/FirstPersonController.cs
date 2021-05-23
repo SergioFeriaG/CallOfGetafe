@@ -11,7 +11,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     [RequireComponent(typeof (AudioSource))]
     public class FirstPersonController : MonoBehaviour
     {
-        public enum TipoSuelo {Normal, Wood, Nature, Alphalt}
+        public enum TipoSuelo {Normal, Wood, Water}
         TipoSuelo tipoSuelo = TipoSuelo.Normal;
         [SerializeField] private bool m_IsWalking;
         [SerializeField] private float m_WalkSpeed;
@@ -28,7 +28,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private LerpControlledBob m_JumpBob = new LerpControlledBob();
         [SerializeField] private float m_StepInterval;
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
-        [SerializeField] private AudioClip[] m_FootstepSoundsWood; 
+        [SerializeField] private AudioClip[] m_FootstepSoundsWood;
+        [SerializeField] private AudioClip[] m_FootstepSoundsWater; 
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
@@ -190,6 +191,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     // move picked sound to index 0 so it's not picked next time
                     m_FootstepSoundsWood[n] = m_FootstepSoundsWood[0];
                     m_FootstepSoundsWood[0] = m_AudioSource.clip;
+                break;
+                case (TipoSuelo.Water):
+                    n = Random.Range(1, m_FootstepSoundsWater.Length);
+                    m_AudioSource.clip = m_FootstepSoundsWater[n];
+                    m_AudioSource.PlayOneShot(m_AudioSource.clip);
+                    // move picked sound to index 0 so it's not picked next time
+                    m_FootstepSoundsWater[n] = m_FootstepSoundsWater[0];
+                    m_FootstepSoundsWater[0] = m_AudioSource.clip;
                 break;
             }
             

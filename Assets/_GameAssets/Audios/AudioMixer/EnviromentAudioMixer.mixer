@@ -115,7 +115,7 @@ AudioMixerController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: EnviromentAudioMixer
-  m_OutputGroup: {fileID: 0}
+  m_OutputGroup: {fileID: 24300002, guid: b04798e655d74467b931f774ab675b00, type: 2}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
@@ -185,7 +185,7 @@ AudioMixerSnapshotController:
     65205ce2968c24f23a2e2948572a8eda: 788
     c166e136331af46d3a69162ed5b8ba4f: 788
     ff43fa66283c84dfbae0b1a4a834241a: -4.5603476
-    ad55b7385baaa4d2a9c86c08401a53b1: 788
+    ad55b7385baaa4d2a9c86c08401a53b1: 436
     fda076792ce3f48d09f9de5a6f71b01a: -2.018035
     91614ace4c9384f65ad98516892259ef: 1
   m_TransitionOverrides: {}

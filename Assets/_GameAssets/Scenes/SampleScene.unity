@@ -2125,8 +2125,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 91.4404, y: 112.63784, z: 406.7511}
-  m_Center: {x: -23.075943, y: 51.938236, z: 58.741028}
+  m_Size: {x: 91.4404, y: 101.64251, z: 406.7511}
+  m_Center: {x: -23.075943, y: 57.4359, z: 58.741028}
 --- !u!4 &714586702
 Transform:
   m_ObjectHideFlags: 0
@@ -5361,6 +5361,8 @@ GameObject:
   - component: {fileID: 1273086953}
   - component: {fileID: 1273086955}
   - component: {fileID: 1273086954}
+  - component: {fileID: 1273086956}
+  - component: {fileID: 1273086957}
   m_Layer: 0
   m_Name: InsideRiver
   m_TagString: Untagged
@@ -5376,7 +5378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273086952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -51.67706, y: 5.85037, z: -129.2185}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 65729394}
@@ -5391,12 +5393,12 @@ AudioSource:
   m_GameObject: {fileID: 1273086952}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  OutputAudioMixerGroup: {fileID: -5138425393466435353, guid: 95d6ea8e70ae343b2ba6571b3f4abf31, type: 2}
+  m_audioClip: {fileID: 8300000, guid: ed64ff3a4c04148309b943b801a36b0e, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5486,11 +5488,36 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273086952}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 83.34604, y: 9.236808, z: 406.7511}
+  m_Center: {x: -19.028763, y: 0.27160215, z: 58.741028}
+--- !u!114 &1273086956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273086952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5728d270c07514e85afff79d3dceb114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 0
+--- !u!114 &1273086957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1273086952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1c1e52055f04aa1a929946cb2ae604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &1273496234
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8189,6 +8216,10 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 119
       objectReference: {fileID: 0}
+    - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 76458b3b89c2b4aabacad0f88a4c929f, type: 2}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RunSpeed
       value: 12
@@ -8242,6 +8273,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSoundsWater.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_FootstepSoundsWood.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
@@ -8273,6 +8308,22 @@ PrefabInstance:
       propertyPath: m_FootstepSoundsGrass.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: 490537f0cf4ac4bff8f369b143be10ec, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSoundsWater.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a19bc67b65c0d4002b501bc8336499a4, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSoundsWater.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e2a7576c0cf14975a4908c51f140864, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSoundsWater.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4d391c584f8774f57a36143680277bfd, type: 3}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepSoundsWater.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 35aacbf6276f14627ad3b70155b6e25f, type: 3}
     - target: {fileID: 14300000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Height
       value: 1.8
