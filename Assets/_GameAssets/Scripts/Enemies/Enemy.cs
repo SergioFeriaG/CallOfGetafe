@@ -58,7 +58,7 @@ public abstract class Enemy : MonoBehaviour
     public void Death()
     {
         //TODO sistema de part�culas, emitir un sonido y destruir el objeto
-        GameObject psDeath = Instantiate(prefabPSDeath);
+        GameObject psDeath = Instantiate(prefabPSDeath, transform.position, transform.rotation);
         Destroy(gameObject);
     }
 
