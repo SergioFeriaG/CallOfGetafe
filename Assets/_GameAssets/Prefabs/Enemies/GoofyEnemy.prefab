@@ -589,7 +589,7 @@ MonoBehaviour:
   timeToRotation: 3
   minAngle: 90
   maxAngle: 180
-  distanceToExplosion: 0
+  distanceToExplosion: 2
 --- !u!1 &5665907303332973851
 GameObject:
   m_ObjectHideFlags: 0
