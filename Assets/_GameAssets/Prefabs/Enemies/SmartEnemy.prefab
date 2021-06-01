@@ -575,7 +575,7 @@ MonoBehaviour:
   minAngle: 84
   maxAngle: 128
   distanceToExplosion: 2
-  followDistance: 10
+  followDistance: 15
 --- !u!1 &3366928532985573530
 GameObject:
   m_ObjectHideFlags: 0
