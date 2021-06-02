@@ -19,7 +19,13 @@ public class ActivationCircleManager : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             animator.SetBool("Open", true);
-            PlayHornSound();
+            if (!audioSource.isPlaying){
+                PlayHornSound();
+            }
+            else
+            {
+                return;
+            }
         }
     }
     private void PlayHornSound()

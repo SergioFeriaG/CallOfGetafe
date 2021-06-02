@@ -12,20 +12,20 @@ AssetImportWorker12
 -logFile
 Logs/AssetImportWorker12.log
 -srvPort
-49245
+49208
 Successfully changed project path to: /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 111.13 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 144.09 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-01 17:20:50.777 Unity[1049:16008] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
-2021-06-01 17:20:50.778 Unity[1049:16008] Metal devices available: 1
-2021-06-01 17:20:50.778 Unity[1049:16008] 0: Intel HD Graphics 5000 (low power)
-2021-06-01 17:20:50.778 Unity[1049:16008] Using device Intel HD Graphics 5000 (low power)
+2021-06-01 22:09:32.618 Unity[1049:14632] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
+2021-06-01 22:09:32.618 Unity[1049:14632] Metal devices available: 1
+2021-06-01 22:09:32.619 Unity[1049:14632] 0: Intel HD Graphics 5000 (low power)
+2021-06-01 22:09:32.622 Unity[1049:14632] Using device Intel HD Graphics 5000 (low power)
 Initializing Metal device caps: Intel HD Graphics 5000
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
@@ -36,13 +36,13 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.042203 seconds.
+Registered in 0.044366 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 147.71 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 76.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.941 seconds
+- Completed reload, in  8.402 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.098603 seconds.
+Registered in 0.086091 seconds.
