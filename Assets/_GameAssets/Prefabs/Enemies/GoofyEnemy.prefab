@@ -528,6 +528,7 @@ GameObject:
   - component: {fileID: 5665907302188519762}
   - component: {fileID: 5665907302188519763}
   - component: {fileID: 5665907302188519761}
+  - component: {fileID: -4857220424482065877}
   m_Layer: 0
   m_Name: GoofyEnemy
   m_TagString: Enemy
@@ -590,6 +591,20 @@ MonoBehaviour:
   minAngle: 90
   maxAngle: 180
   distanceToExplosion: 2
+--- !u!114 &-4857220424482065877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5665907302188519772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345f93b99892d48889bd1f239496d7c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeAmount: 10
+  healthManager: {fileID: 0}
 --- !u!1 &5665907303332973851
 GameObject:
   m_ObjectHideFlags: 0

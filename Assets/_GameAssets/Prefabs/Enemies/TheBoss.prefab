@@ -45,6 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e80e37e077db246008bf05dbe1878e28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkSpeed: 0
+  runSpeed: 0
+  runDistance: 0
+  idleTime: 3
+  isPlayerDetected: 0
   randomRoute: 1
   patrolPoints:
   - {fileID: 0}
