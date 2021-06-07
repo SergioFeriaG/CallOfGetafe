@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 5665907302188519762}
   - component: {fileID: 5665907302188519763}
   - component: {fileID: 5665907302188519761}
-  - component: {fileID: -4857220424482065877}
+  - component: {fileID: 1290522711}
   m_Layer: 0
   m_Name: GoofyEnemy
   m_TagString: Enemy
@@ -587,24 +587,26 @@ MonoBehaviour:
   distanceToPlayer: 0
   player: {fileID: 0}
   speed: 2
-  timeToRotation: 3
+  timeToRotation: 4
   minAngle: 90
   maxAngle: 180
   distanceToExplosion: 2
---- !u!114 &-4857220424482065877
-MonoBehaviour:
+  lifeAmount: 10
+  healthManager: {fileID: 0}
+--- !u!136 &1290522711
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5665907302188519772}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 345f93b99892d48889bd1f239496d7c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeAmount: 10
-  healthManager: {fileID: 0}
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5665907303332973851
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +618,6 @@ GameObject:
   - component: {fileID: 5665907303332973850}
   - component: {fileID: 5665907303332973855}
   - component: {fileID: 5665907303332973848}
-  - component: {fileID: 5665907303332973849}
   m_Layer: 0
   m_Name: Modelo
   m_TagString: Enemy
@@ -687,17 +688,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &5665907303332973849
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5665907303332973851}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}

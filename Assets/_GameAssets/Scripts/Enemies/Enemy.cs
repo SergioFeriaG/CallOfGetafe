@@ -11,7 +11,7 @@ public abstract class Enemy : MonoBehaviour
     public float distanceToPlayer;
     public GameObject player;
 
-    private void Awake()
+    public virtual void Awake()
     {
         health = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player");

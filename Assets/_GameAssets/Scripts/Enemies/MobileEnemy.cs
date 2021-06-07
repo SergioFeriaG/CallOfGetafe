@@ -10,11 +10,21 @@ public abstract class MobileEnemy : Enemy
     public float minAngle;
     [Range(0, 360)]
     public float maxAngle;
-    [Range(1,5)]
+    [Range(0,5)]
     public float distanceToExplosion;
+
+      [SerializeField]
+    int lifeAmount;
+    [SerializeField]
+    HealthManager healthManager;
     private void Start()
     {
         InvokeRepeating("Rotate", timeToRotation, timeToRotation);
+    }
+    public override void Awake() 
+    {
+           base.Awake(); 
+           healthManager = FindObjectOfType<HealthManager>();
     }
 
     public override void Update()
@@ -32,6 +42,7 @@ public abstract class MobileEnemy : Enemy
     {
         if (distanceToPlayer <= distanceToExplosion)
         {
+            healthManager.RemoveLife(lifeAmount);
             Instantiate(prefabPSDeath, transform.position, transform.rotation);
             Destroy(gameObject);
         }
@@ -39,8 +50,8 @@ public abstract class MobileEnemy : Enemy
 
     public virtual void Rotate()
     {
-        int determinante = Random.Range(0, 100);//N˙mero entero entre 0 y 100
-        int signo = determinante > 50 ? 1 : -1;//ExpresiÛn ternaria, tiene el mismo significado que el cÛdigo siguiente
+        int determinante = Random.Range(0, 100);//Numero entero entre 0 y 100
+        int signo = determinante > 50 ? 1 : -1;//Expresion ternaria, tiene el mismo significado que el codigo siguiente
         /*
         if (determinante > 50)
         {

@@ -575,6 +575,8 @@ MonoBehaviour:
   minAngle: 84
   maxAngle: 128
   distanceToExplosion: 2
+  lifeAmount: 10
+  healthManager: {fileID: 0}
   followDistance: 15
 --- !u!1 &3366928532985573530
 GameObject:
