@@ -18,6 +18,7 @@ public class FirstAidKit_Case : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             healthManager.AddLife(lifeAmount);
+            Destroy(gameObject);
         }
     }
 }
