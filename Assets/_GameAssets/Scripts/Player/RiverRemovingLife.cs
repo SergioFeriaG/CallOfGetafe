@@ -8,13 +8,13 @@ public class RiverRemovingLife : MonoBehaviour
     int lifeAmount;
     [SerializeField]
     HealthManager healthManager;
-    [SerializeField]
-    MobileEnemy movileEnemy;
+    //[SerializeField]
+    //MobileEnemy movileEnemy;
 
     private void Awake() 
     {
         healthManager = FindObjectOfType<HealthManager>();
-        movileEnemy = FindObjectOfType<MobileEnemy>();    
+        //movileEnemy = FindObjectOfType<MobileEnemy>();    
     }
     private void OnTriggerStay(Collider other) 
     {

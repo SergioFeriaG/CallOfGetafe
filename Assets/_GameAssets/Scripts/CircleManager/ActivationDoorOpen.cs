@@ -18,7 +18,9 @@ public class ActivationDoorOpen : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
+            //Debug.Log("Entro");
             animator.SetBool("Open", true);
+            
             if (!audioSource.isPlaying){
                 PlayHornSound();
                 Destroy(gameObject);
