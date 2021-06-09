@@ -12,18 +12,187 @@ AssetImportWorker3
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-49378
+50188
 Successfully changed project path to: /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 510.74 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 111.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.5f1 (8095aa901b9b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-08 17:28:57.733 Unity[758:10717] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
-2021-06-08 17:28:57.733 Unity[758:10717] Metal devices available: 1
-2021-06-08 17:28:57.733 Unity[758:10717] 0: Intel HD Graphics 5000 (low power)
-2021-06-08 17:28:57.734 Unity[758:10717] Using device Intel HD Graphics 5000 (low power)
+2021-06-09 14:15:29.461 Unity[3013:104402] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
+2021-06-09 14:15:29.461 Unity[3013:104402] Metal devices available: 1
+2021-06-09 14:15:29.461 Unity[3013:104402] 0: Intel HD Graphics 5000 (low power)
+2021-06-09 14:15:29.462 Unity[3013:104402] Using device Intel HD Graphics 5000 (low power)
 Initializing Metal device caps: Intel HD Graphics 5000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56013
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.047388 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.738 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.029383 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.163 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.7 MB.
+System memory in use after: 221.8 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2246.
+Total: 3.564740 ms (FindLiveObjects: 0.293610 ms CreateObjectMapping: 0.083927 ms MarkObjects: 2.654224 ms  DeleteObjects: 0.529517 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller
+  artifactKey: Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller using Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1f2ee4a9c06ca1394dc60e2850c787') in 0.979071 seconds
+  Import took 1.145963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.395 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 219.0 MB.
+System memory in use after: 219.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 9.862608 ms (FindLiveObjects: 0.611442 ms CreateObjectMapping: 0.575827 ms MarkObjects: 7.441503 ms  DeleteObjects: 1.230275 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.715467 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1276244ab86704434e63fd53d2a24730') in 0.562989 seconds
+  Import took 0.662712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.394826 seconds.
+  path: Assets/_GameAssets/Animations/Enemies/TheBoss/TheBossAnimatorController.controller
+  artifactKey: Guid(04ebe316d81444707b7de2fcce5985fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Enemies/TheBoss/TheBossAnimatorController.controller using Guid(04ebe316d81444707b7de2fcce5985fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaf26a321b50a62b128185a458eabc3') in 0.114525 seconds
+  Import took 0.198708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.556372 seconds.
+  path: Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller
+  artifactKey: Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller using Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b7a1d948b842a9e65773758e013656') in 0.029479 seconds
+  Import took 0.065317 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001053 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.6 MB.
+System memory in use after: 223.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 6.035485 ms (FindLiveObjects: 0.512668 ms CreateObjectMapping: 0.236153 ms MarkObjects: 4.812754 ms  DeleteObjects: 0.471100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.374555 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b387ae090782b651613a7e7d0c5163d') in 0.040319 seconds
+  Import took 0.106326 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001095 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.0 MB.
+System memory in use after: 224.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 3.465886 ms (FindLiveObjects: 0.329443 ms CreateObjectMapping: 0.095240 ms MarkObjects: 2.640608 ms  DeleteObjects: 0.398230 ms)
+

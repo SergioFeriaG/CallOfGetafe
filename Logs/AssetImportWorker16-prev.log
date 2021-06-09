@@ -1,0 +1,400 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+/Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+49313
+Successfully changed project path to: /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
+/Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 100.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-09 08:02:06.804 Unity[1070:17200] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
+2021-06-09 08:02:06.804 Unity[1070:17200] Metal devices available: 1
+2021-06-09 08:02:06.804 Unity[1070:17200] 0: Intel HD Graphics 5000 (low power)
+2021-06-09 08:02:06.805 Unity[1070:17200] Using device Intel HD Graphics 5000 (low power)
+Initializing Metal device caps: Intel HD Graphics 5000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56070
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.100627 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.118 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.033963 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.618 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.29 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1761 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.6 MB.
+System memory in use after: 221.6 MB.
+
+Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 2246.
+Total: 4.960875 ms (FindLiveObjects: 0.527200 ms CreateObjectMapping: 0.344961 ms MarkObjects: 3.479298 ms  DeleteObjects: 0.607553 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_GameAssets/Scripts/ChangeScene/ChangeScene.cs
+  artifactKey: Guid(7bfc114e95dbe45f487f7258e869015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Scripts/ChangeScene/ChangeScene.cs using Guid(7bfc114e95dbe45f487f7258e869015b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128721b9d901849a6453c8bbc67ae8d2') in 4.276417 seconds
+  Import took 4.506600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1403.399450 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan
+  artifactKey: Guid(91f50cb683d4943899f79ab66a017c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan using Guid(91f50cb683d4943899f79ab66a017c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208a62b11fa590556339fbc3f5f54ba3') in 0.041754 seconds
+  Import took 0.130123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 347.214349 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae5c696981e1c679e6c208852b4267d') in 1.783724 seconds
+  Import took 1.991807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.229694 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749e19e55f783112a76bf104d7f6d870') in 1.958717 seconds
+  Import took 2.095425 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.140608 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 240.4 MB.
+System memory in use after: 240.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 8.729345 ms (FindLiveObjects: 0.955965 ms CreateObjectMapping: 0.370170 ms MarkObjects: 6.594990 ms  DeleteObjects: 0.802635 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.915447 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b07557c479d9cd555272e557026eaea') in 0.534320 seconds
+  Import took 0.615313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.076530 seconds.
+  path: Assets/_GameAssets/Animations/Enemies/PeasantMan
+  artifactKey: Guid(dc233283ce32b4b4ba94f8338942edae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Enemies/PeasantMan using Guid(dc233283ce32b4b4ba94f8338942edae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83149e76dfacbffe05706a0a5e2ae1c4') in 0.002898 seconds
+  Import took 0.061090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.940744 seconds.
+  path: Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller
+  artifactKey: Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Animations/Enemies/PeasantMan/PeasantAnimationController.controller using Guid(2d242e4a522ea473b882955b17ee59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1cf2c23c339b6838142890c2dcdd10') in 0.521949 seconds
+  Import took 0.588574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.218248 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4794ee31dfec546b2ddf7bbe42d52aa4') in 0.146710 seconds
+  Import took 0.216160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.037578 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a3a62955f0c96bb88737e30805bead') in 0.168162 seconds
+  Import took 0.245808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.625229 seconds.
+  path: Assets/_GameAssets/3D Models/TheBoss/theboss@Standing W_Briefcase Idle.fbx
+  artifactKey: Guid(2f812647a8cdb410592f7a2822b2ffec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/TheBoss/theboss@Standing W_Briefcase Idle.fbx using Guid(2f812647a8cdb410592f7a2822b2ffec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd82ee3d211cf3075e33c12fa4aa7e4') in 0.113465 seconds
+  Import took 0.202801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.971909 seconds.
+  path: Assets/_GameAssets/3D Models/TheBoss/theboss@Running.fbx
+  artifactKey: Guid(1c6de543ac2804bb59ea0f532b852174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/TheBoss/theboss@Running.fbx using Guid(1c6de543ac2804bb59ea0f532b852174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44633750879f1f01416ddc38fe8913c5') in 0.034621 seconds
+  Import took 0.084619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.772479 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe186646436a3a2d29bdfca6e46f8c7a') in 0.039264 seconds
+  Import took 0.082006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.973097 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7e1d4bdb409e97e1c73cf5fcf73f94') in 0.015646 seconds
+  Import took 0.040937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.070125 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4598786ffea0a923af98b011b5655116') in 0.021356 seconds
+  Import took 0.125726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.824030 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a8444fd053edce0e3dde6668c62c9e') in 0.025188 seconds
+  Import took 0.073071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.710454 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7677e3c378809fa000db239388bc13c') in 0.308053 seconds
+  Import took 0.403565 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.088333 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.964 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1674 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.4 MB.
+System memory in use after: 245.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 4.930214 ms (FindLiveObjects: 0.660391 ms CreateObjectMapping: 0.186661 ms MarkObjects: 3.344825 ms  DeleteObjects: 0.735806 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1488.940179 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5c53c29b3c35f5005b7c2a8204b5d7') in 0.331492 seconds
+  Import took 0.353240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.924577 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d7cb09764a251a62b4b1b09d05783b') in 0.131874 seconds
+  Import took 0.244882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.244104 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4a75bb5854d6f852b1c57e1b1fd29a') in 0.092816 seconds
+  Import took 0.101699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 285.342545 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb46f5b374fdb945a6737727de777d5') in 0.162887 seconds
+  Import took 0.207135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.544049 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9096de1f63a2ce5e7a1b349fa5f6c7f') in 0.222450 seconds
+  Import took 0.279390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.508005 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7082329ad5df714239d41e8a65784f69') in 0.084583 seconds
+  Import took 0.156167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.456039 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15b7bdf6406eb3801200096c134b98e') in 0.399210 seconds
+  Import took 0.448839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.041673 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f455cfb41cfb057ddb0fa24b6965184e') in 0.278473 seconds
+  Import took 0.352784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.091683 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec20c8e32a1631fd1e45cc95751ebf5') in 0.116286 seconds
+  Import took 0.194518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.684745 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9a7635ba4182b15fca29b904e5be98') in 0.149280 seconds
+  Import took 0.167229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.319651 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8875e55742d05c440cf7d1be31a24985') in 0.154314 seconds
+  Import took 0.291069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.181915 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx
+  artifactKey: Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@T-Pose.fbx using Guid(bee908ca5e66b4aa8bde93e242facff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946e5dba22e643f2baa2d47de63f37ee') in 0.141047 seconds
+  Import took 0.182241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.852491 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b28583a24b420f4c45b465fc3a2b07') in 0.026788 seconds
+  Import took 0.059339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.991556 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7965e760f05f3f3d7bd47afaf4ea6e23') in 0.016314 seconds
+  Import took 0.094066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.018904 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx
+  artifactKey: Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Idle.fbx using Guid(cd4d84fe20dcb4749b412b9cbb6717a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078788c44029540900e885be92ac6833') in 0.017436 seconds
+  Import took 0.061814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.716005 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4c1fc27155031ac813817adaebae22') in 0.051784 seconds
+  Import took 0.092375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.020342 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c673564bb1ec7dac35f3a490b28ae21d') in 0.010304 seconds
+  Import took 0.069608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.896681 seconds.
+  path: Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx
+  artifactKey: Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/3D Models/PeasantMan/PeasantMan@Mutant Walking.fbx using Guid(c1bbba612ba62472cb0a1ba7aa87fc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eb0e673f55c4e9ec32fafe106c6d8f') in 0.009912 seconds
+  Import took 0.016570 seconds .
+
