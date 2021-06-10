@@ -570,6 +570,8 @@ MonoBehaviour:
   prefabPSDeath: {fileID: 7619243037890089068, guid: 5407921ac0d0d44a29ee9dd070e26367, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
+  score: 0
+  finalEnemy: {fileID: 0}
   speed: 2
   timeToRotation: 3
   minAngle: 84

@@ -10,11 +10,17 @@ public abstract class Enemy : MonoBehaviour
     public GameObject prefabPSDeath;
     public float distanceToPlayer;
     public GameObject player;
+    public int score;
+    
+    [SerializeField]
+    GameObject finalEnemy;
 
     public virtual void Awake()
     {
         health = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player");
+        finalEnemy = GameObject.Find("ManagerFinalEnemy");
+
         if (player == null)
         {
             Debug.LogError("Error en Enemy buscando el elemento con el tag Player");
@@ -59,6 +65,8 @@ public abstract class Enemy : MonoBehaviour
     {
         //TODO sistema de part�culas, emitir un sonido y destruir el objeto
         GameObject psDeath = Instantiate(prefabPSDeath, transform.position, transform.rotation);
+        score++;
+        ScoreEnemy();
         Destroy(gameObject);
     }
 
@@ -66,5 +74,12 @@ public abstract class Enemy : MonoBehaviour
     /// Ataque del enemigo
     /// </summary>
     public abstract void Attack();
+    public void ScoreEnemy()
+    {
+        if(score == 2)
+        {
+            finalEnemy.GetComponent<ManagerFinalEnemy>().ActivateFinalEnemy();
+        }
+    }
     
 }

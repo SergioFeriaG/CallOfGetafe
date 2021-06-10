@@ -13,10 +13,11 @@ public abstract class MobileEnemy : Enemy
     [Range(0,5)]
     public float distanceToExplosion;
 
-      [SerializeField]
+    [SerializeField]
     int lifeAmount;
     [SerializeField]
     HealthManager healthManager;
+    
     private void Start()
     {
         InvokeRepeating("Rotate", timeToRotation, timeToRotation);
@@ -44,6 +45,8 @@ public abstract class MobileEnemy : Enemy
         {
             healthManager.RemoveLife(lifeAmount);
             Instantiate(prefabPSDeath, transform.position, transform.rotation);
+            score++;
+            ScoreEnemy();
             Destroy(gameObject);
         }
     }
@@ -63,4 +66,5 @@ public abstract class MobileEnemy : Enemy
         */
         transform.Rotate(0, Random.Range(minAngle, maxAngle) * signo, 0);
     }
+
 }
