@@ -2,24 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmartFinalEnemy : MobileEnemy {
-
+public class SmartFinalEnemy : MonoBehaviour 
+{
     [Range(1,50)]
     public float followDistance;
+    public float distanceToPlayer;
+    public GameObject player;
+    public float speed;
+    public Animator animator;
+    [SerializeField]
+    bool follow;
+    public static SmartFinalEnemy smartFinalEnemy;
 
-    public override void Update()
+    private void Awake() 
     {
-        base.Update();//Ejecuta la implementaci n de Update de la clase base
-        if (distanceToPlayer <= followDistance)
+        smartFinalEnemy = this;
+        player = GameObject.FindGameObjectWithTag("Player");    
+    }
+
+    /*private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
         {
+            animator.SetBool("Walk", true);
+        }
+    }*/
+    public void FinalEnemyActivator()
+    {
+        follow = true;
+    }
+
+    private void Update() 
+    {
+        if(follow)
+        {
+            distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
             Vector3 target = new Vector3(player.transform.position.x, transform.position.y ,player.transform.position.z);
             transform.LookAt(target);
-        } 
-        Move();
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
+            
+        if (distanceToPlayer == 3)
+        {
+            animator.SetBool("Attack", true);
+        }
+        }
     }
-    public override void Rotate()
+        /**/
+    public void Rotate()
     {
         if (distanceToPlayer <= followDistance) return;
-        base.Rotate();
+        int determinante = Random.Range(0, 100);
+        int signo = determinante > 50 ? 1 : -1;
     }
 }

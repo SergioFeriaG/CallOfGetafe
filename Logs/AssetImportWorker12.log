@@ -12,18 +12,7 @@ AssetImportWorker12
 -logFile
 Logs/AssetImportWorker12.log
 -srvPort
-50386
+49797
 Successfully changed project path to: /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 225.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.5f1 (8095aa901b9b)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/sergioferia/Desktop/Unity3D/ProyectosUnity/CallOfGetafe/Assets
-GfxDevice: creating device client; threaded=0
-2021-06-10 13:40:49.157 Unity[3886:98828] PHL 223V5 preferred device: Intel HD Graphics 5000 (low power)
-2021-06-10 13:40:49.157 Unity[3886:98828] Metal devices available: 1
-2021-06-10 13:40:49.157 Unity[3886:98828] 0: Intel HD Graphics 5000 (low power)
-2021-06-10 13:40:49.186 Unity[3886:98828] Using device Intel HD Graphics 5000 (low power)
-Initializing Metal device caps: Intel HD Graphics 5000

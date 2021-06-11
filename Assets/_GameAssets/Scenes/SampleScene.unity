@@ -6742,7 +6742,6 @@ MonoBehaviour:
   prefabPSDeath: {fileID: 7619243037890089068, guid: 5407921ac0d0d44a29ee9dd070e26367, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
-  score: 0
   finalEnemy: {fileID: 0}
   speed: 2
   timeToRotation: 3
@@ -6751,7 +6750,7 @@ MonoBehaviour:
   distanceToExplosion: 2
   lifeAmount: 0
   healthManager: {fileID: 0}
-  followDistance: 20
+  followDistance: 0
 --- !u!4 &483393747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7639088566237366778, guid: 9db41fa3b90a34504b9bbb10a52b3cad, type: 3}
@@ -9043,7 +9042,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 743146519}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de44f3daaebf744509594deb39487ed6, type: 3}
   m_Name: 
@@ -24117,7 +24116,6 @@ MonoBehaviour:
   prefabPSDeath: {fileID: 7619243037890089068, guid: 5407921ac0d0d44a29ee9dd070e26367, type: 3}
   distanceToPlayer: 0
   player: {fileID: 0}
-  score: 0
   finalEnemy: {fileID: 0}
   speed: 2
   timeToRotation: 3
@@ -24126,7 +24124,7 @@ MonoBehaviour:
   distanceToExplosion: 2
   lifeAmount: 0
   healthManager: {fileID: 0}
-  followDistance: 20
+  followDistance: 0
 --- !u!4 &1771032464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7639088566237366778, guid: 9db41fa3b90a34504b9bbb10a52b3cad, type: 3}
@@ -27948,27 +27946,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108312639}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a25cc7a241b134372b230968992ff61f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  health: 100
-  prefabPSDamage: {fileID: 5898877903804006931, guid: b7d764df5e93f4252ace978e52334242, type: 3}
-  prefabPSDeath: {fileID: 7619243037890089068, guid: 5407921ac0d0d44a29ee9dd070e26367, type: 3}
+  followDistance: 20
   distanceToPlayer: 0
   player: {fileID: 0}
-  score: 0
-  finalEnemy: {fileID: 2108312639}
-  speed: 8
-  timeToRotation: 3
-  minAngle: 84
-  maxAngle: 128
-  distanceToExplosion: 2
-  lifeAmount: 0
-  healthManager: {fileID: 0}
-  followDistance: 20
+  speed: 6
+  animator: {fileID: 0}
+  follow: 0
 --- !u!1 &2109408799
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public abstract class Enemy : MonoBehaviour
     public GameObject prefabPSDeath;
     public float distanceToPlayer;
     public GameObject player;
-    public int score;
+    public static int score;
     
     [SerializeField]
     GameObject finalEnemy;
@@ -76,7 +76,7 @@ public abstract class Enemy : MonoBehaviour
     public abstract void Attack();
     public void ScoreEnemy()
     {
-        if(score == 2)
+        if(score >= 20)
         {
             finalEnemy.GetComponent<ManagerFinalEnemy>().ActivateFinalEnemy();
         }
