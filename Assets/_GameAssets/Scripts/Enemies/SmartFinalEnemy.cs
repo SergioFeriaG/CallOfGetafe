@@ -20,13 +20,6 @@ public class SmartFinalEnemy : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");    
     }
 
-    /*private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            animator.SetBool("Walk", true);
-        }
-    }*/
     public void FinalEnemyActivator()
     {
         follow = true;
@@ -41,17 +34,22 @@ public class SmartFinalEnemy : MonoBehaviour
             transform.LookAt(target);
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
             
-        if (distanceToPlayer == 3)
-        {
-            animator.SetBool("Attack", true);
-        }
+            if (distanceToPlayer <= 5)
+            {
+                //animator.GetComponent<Animator>().SetBool("Walk", false);
+                animator.GetComponent<Animator>().SetTrigger("Attack");
+                follow = false;
+                //animator.SetTrigger("Attack");
+            }
         }
     }
-        /**/
+    
     public void Rotate()
     {
         if (distanceToPlayer <= followDistance) return;
         int determinante = Random.Range(0, 100);
         int signo = determinante > 50 ? 1 : -1;
     }
+
+
 }

@@ -13,6 +13,9 @@ public class HealthManager : MonoBehaviour
     GameObject gameOverPanel;
     [SerializeField]
     Text textLife;
+    [SerializeField]
+    GameObject animatorLight;
+    
 
     void Start() 
     {
@@ -25,11 +28,21 @@ public class HealthManager : MonoBehaviour
         {
             playerLife = maxLife;
         }
+        if(playerLife == 100)
+        {
+            animatorLight.GetComponent<Animator>().SetBool("On", false);
+        }
         textLife.text = playerLife.ToString();
     }
     public void RemoveLife(int damage)
     {
         playerLife -= damage;
+
+        if(playerLife == 10)
+        {
+            animatorLight.GetComponent<Animator>().SetBool("On", true);
+        }
+
         if(playerLife<= 0)
         {
             playerLife = 0;
