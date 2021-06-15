@@ -7,6 +7,13 @@ public class EnemyHit : MonoBehaviour
     bool activeHit;
     [SerializeField]
     int damage;
+    public AudioClip slap;
+    private AudioSource audioSource;
+
+    private void Start() 
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void OnEnable() 
     {
@@ -17,8 +24,9 @@ public class EnemyHit : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player") && activeHit)
         {
-            activeHit = false;
             FindObjectOfType<HealthManager>().RemoveLife(damage);
+            audioSource.PlayOneShot(slap);
+            activeHit = false;
         }
     }
 }

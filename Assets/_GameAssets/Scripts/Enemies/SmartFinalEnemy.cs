@@ -17,7 +17,7 @@ public class SmartFinalEnemy : MonoBehaviour
     private void Awake() 
     {
         smartFinalEnemy = this;
-        player = GameObject.FindGameObjectWithTag("Player");    
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public void FinalEnemyActivator()
@@ -36,10 +36,8 @@ public class SmartFinalEnemy : MonoBehaviour
             
             if (distanceToPlayer <= 5)
             {
-                //animator.GetComponent<Animator>().SetBool("Walk", false);
                 animator.GetComponent<Animator>().SetTrigger("Attack");
                 follow = false;
-                //animator.SetTrigger("Attack");
             }
         }
     }
@@ -50,6 +48,4 @@ public class SmartFinalEnemy : MonoBehaviour
         int determinante = Random.Range(0, 100);
         int signo = determinante > 50 ? 1 : -1;
     }
-
-
 }

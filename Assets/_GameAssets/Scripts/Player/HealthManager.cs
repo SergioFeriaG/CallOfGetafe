@@ -53,6 +53,7 @@ public class HealthManager : MonoBehaviour
     void ActivateGameOverPanel()
     {
         gameOverPanel.SetActive(true);
+        //TimeScale = 0f;
     }
 
 
