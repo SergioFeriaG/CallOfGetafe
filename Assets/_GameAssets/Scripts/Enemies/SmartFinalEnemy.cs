@@ -14,10 +14,26 @@ public class SmartFinalEnemy : MonoBehaviour
     bool follow;
     public static SmartFinalEnemy smartFinalEnemy;
 
+    //Variables de clase para FinalEnemyDamage
+
+    /*public int maxHealth;
+    public int health;
+    public GameObject prefabPSDamage;
+    public GameObject prefabPSDeath;
+    
+    [SerializeField]
+    int lifeAmount;
+    [SerializeField]
+    HealthManager healthManager;
+    [Range(0,5)]
+    public float distanceToExplosion;*/
+
     private void Awake() 
     {
         smartFinalEnemy = this;
         player = GameObject.FindGameObjectWithTag("Player");
+        //health = maxHealth; //Codigo Damage
+        //healthManager = FindObjectOfType<HealthManager>();//Codigo Damage
     }
 
     public void FinalEnemyActivator()
@@ -48,4 +64,30 @@ public class SmartFinalEnemy : MonoBehaviour
         int determinante = Random.Range(0, 100);
         int signo = determinante > 50 ? 1 : -1;
     }
+
+    //Codigo para FinalEnemy Damage
+    /*public void ReceiveDamage(int damage, Vector3 impactPosition, Vector3 normal)
+    {
+        health-=damage;
+        if (health<=0){
+            Death();
+        } else {
+            GameObject psDamage = Instantiate(prefabPSDamage, impactPosition, Quaternion.LookRotation(normal));
+            psDamage.transform.SetParent(transform);
+        }
+    }
+    public void Death()
+    {
+        GameObject psDeath = Instantiate(prefabPSDeath, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+    public void Attack()
+    {
+        if (distanceToPlayer <= distanceToExplosion)
+        {
+            healthManager.RemoveLife(lifeAmount);
+            Instantiate(prefabPSDeath, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
+    }*/
 }

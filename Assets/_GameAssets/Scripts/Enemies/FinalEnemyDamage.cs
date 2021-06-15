@@ -23,6 +23,6 @@ public class FinalEnemyDamage : MonoBehaviour
     }
     void EnemyDamage()
     {
-        receiveDamage.ReceiveDamage(10, transform.position, transform.position);
+        //receiveDamage.ReceiveDamage();
     }
 }
