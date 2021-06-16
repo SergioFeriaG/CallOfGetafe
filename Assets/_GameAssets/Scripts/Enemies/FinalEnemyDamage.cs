@@ -5,24 +5,33 @@ using UnityEngine;
 public class FinalEnemyDamage : MonoBehaviour
 {
     Enemy receiveDamage;
+    [SerializeField]
+    int lifeFinalEnemy;
+    [SerializeField]
+    GameObject hitFx;
+    [SerializeField]
+    GameObject deathFx;
+    [SerializeField]
+    GameObject finalScreen;
 
-    private void Awake() 
+    public void TakeDamage(int damage, Vector3 point, Vector3 normal)
     {
-        receiveDamage = FindObjectOfType<Enemy>();    
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+        lifeFinalEnemy -= damage;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (lifeFinalEnemy<=0)
+        {
+            FinalEnemyDead();
+            //finalScreen.SetActive(true);
+
+        } else 
+        {
+            GameObject psDamage = Instantiate(hitFx, point, Quaternion.LookRotation(normal));
+            psDamage.transform.SetParent(transform);
+        }
     }
-    void EnemyDamage()
+    public void FinalEnemyDead()
     {
-        //receiveDamage.ReceiveDamage();
+        GameObject psDeath = Instantiate(deathFx, transform.position, transform.rotation);
+        Destroy(gameObject);
     }
 }
